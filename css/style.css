@@ -40,7 +40,6 @@ footer li:hover {
 
 h1 {
     font-size: 80px;
-    text-wrap:none;
     padding: 30px;
     width: 50%;
 }
@@ -65,4 +64,11 @@ p {
 
 .footerP {
     padding: 30px;
+}
+
+#hero {
+    position: absolute;
+    mix-blend-mode: lighten;
+    top: -300px;
+    right: -400px;
 }
