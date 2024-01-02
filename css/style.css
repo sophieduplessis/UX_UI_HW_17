@@ -1,0 +1,47 @@
+#topnav {
+    color: #D1D1D1;
+}
+
+body {
+    background-color: #252525;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 88;
+    font-size: 28px; font-family: Helvetica Neue; font-weight: 400;
+    padding-top: 60px;
+    display: inline-block;
+}
+
+li {
+    display:inline;
+    padding: 30px;
+}
+
+ul li:hover {
+    color: #FFA7FB;
+}
+
+#right {
+    float:right;
+}
+
+img {
+    align: right;
+    top: 0;
+    right: -300px;
+}
+
+#about {
+    color: #D1D1D1;
+    font-size: 28px; font-family: Helvetica Neue; font-weight: 400;
+    padding-top: 60px;
+    padding: 88px;
+}
+
+h1 {
+    font-size: 80px;
+    text-wrap:none;
+}
