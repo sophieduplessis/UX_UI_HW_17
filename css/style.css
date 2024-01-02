@@ -1,5 +1,6 @@
 #topnav {
     color: #D1D1D1;
+    padding: 30px;
 }
 
 body {
@@ -16,32 +17,52 @@ ul {
 }
 
 li {
-    display:inline;
+    display:inline-block;
     padding: 30px;
+    left: -30px;
 }
 
 ul li:hover {
     color: #FFA7FB;
 }
 
-#right {
-    float:right;
-}
-
-img {
-    align: right;
-    top: 0;
-    right: -300px;
+footer li:hover {
+    color: #FFA7FB;
 }
 
 #about {
     color: #D1D1D1;
     font-size: 28px; font-family: Helvetica Neue; font-weight: 400;
     padding-top: 60px;
-    padding: 88px;
+    padding: 60px;
+    margin: 0;
 }
 
 h1 {
     font-size: 80px;
     text-wrap:none;
+    padding: 30px;
+    width: 50%;
+}
+
+p {
+    padding: 30px;
+    width: 50%;
+}
+
+
+#footer {
+    color: #D1D1D1;
+    font-size: 28px; font-family: Helvetica Neue; font-weight: 400;
+    padding-top: 60px;
+    padding: 60px;
+    margin: 0;
+}
+
+.footerLi {
+    padding: 30px;
+}
+
+.footerP {
+    padding: 30px;
 }
